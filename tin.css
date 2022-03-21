@@ -1,0 +1,394 @@
+*{
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+html body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+#pink{
+    background-color: #ff4c68;
+    position: relative;
+}
+.compl{
+    position: relative;
+    display: flex;
+    
+    height: 8em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 14.5em;
+}
+nav{
+    padding-left: 20em;
+    font-size: 1.2em;
+}
+nav ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+@media (max-width: 500px){
+    nav ul{
+        display: block;
+    }
+}
+.co{
+    height:11em;
+    line-height: 0.3em;
+}
+.co2{
+    padding-left: 2em;
+    height:11em;
+    line-height: 0.3em;
+}
+.co3{
+    padding-left: 2em;
+    height:11em;
+    line-height: 0.3em;
+}
+.cb{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+.cg{
+    text-align: center;
+    font-size: small;
+    font-size: 0.9em;
+}
+.c{
+    font-size: medium;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.com{
+    line-height: 0.5em;
+}
+.salmon{
+    height:20em;
+    background-color: #ef8172;
+    text-align: center;
+}
+.bord{
+    border: 5px solid;
+    border-color: darkgrey;
+    border-width: 1.5px;
+    line-height: 2em;
+}
+.bord1{
+    margin-left: 5em;
+    border: 5px solid;
+    border-color: darkgrey;
+    border-width: 1.5px;
+    line-height: 2em;
+}
+.bord2{
+    margin-left: 5em;
+    border: 5px solid;
+    border-color: darkgrey;
+    border-width: 1.5px;
+    line-height: 2em;
+}
+.bordhead{
+    font-weight: bolder;
+    text-align: center;
+    background-color: darkgray;
+}
+.cf{
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.b19{
+    font-weight: bolder;
+}
+.conte{
+    line-height: 2em;
+}
+.cf{
+    line-height: 4em;
+}
+.tc{
+    color: lightgray;
+    padding-left: 2.5em;
+}
+.apple{
+    padding: 4px;
+    border: 1px black solid;
+    background-color: black;
+    color: white;
+}
+.playstore{
+    border: 1px lightgray solid;
+    background-color: #ff4c68;
+    color: white;
+    padding: 4px;
+}
+.fa-circle-check{
+    color: indianred;
+    font-size: 3em;
+    padding-left: 2em;
+}
+.fa-bullseye{
+    color: indianred;
+    font-size: 3em;
+    padding-left: 2em;
+}
+.fa-heart{
+    color: indianred;
+    font-size: 3em;
+    padding-left: 3em;
+}
+.fa-facebook-f{
+    color: black;
+}
+.fa-twitter{
+    padding-left: 2em;
+    color: black;
+}
+.fa-instagram{
+    padding-left: 2em;
+    color: black;
+}
+.fa-envelope{
+    padding-left: 2em;
+    color: black;
+}
+#timeSpace{
+    visibility: hidden;
+    padding-left: 1em;
+    position: fixed;
+}
+#trs{
+    overflow: hidden;
+}
+#tpd{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 2em;
+    padding-left: 3em;
+}
+#tcpd{
+    display: flex;
+    color: white;
+    padding-top: 1.5em;
+}
+#dd{
+    padding-left: 7em;
+    width: 15em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+#meet{
+    padding-top: 3em;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+}
+#tmet{
+    transform: rotate(25deg);
+}
+#ali{
+    text-align: center;
+    padding-left: 5em;
+}
+#met{
+    color: white;
+    padding-top: 5em;
+}
+#sn{
+    padding-top: 1em;
+    width: 17em;
+    font-weight: bolder;
+    margin-left: 25em;
+    font-size: 1.3em;
+}
+#spc{
+    line-height: 8em;
+}
+#sp{
+    display: flex;
+    width: 100%;
+    margin-left: 27em;
+}
+#pr{
+    height: 23em;
+}
+#price{
+    display: flex;
+    margin-left: 22em;
+}
+#down{
+    text-align: center;
+    background-color: #ff4c68;
+    height: 12em;
+}
+#true{
+    padding-top: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 2em;
+    width: 10em;
+    margin-left: 16em;
+    
+}
+#su0, #su1, #su2{
+    background-color: lightgray;
+}
+#dpflex{
+    display: flex;
+    margin-top: 3em;
+    padding-left: 21em;
+}
+#dpflex2{
+    padding-left: 2em;
+}
+#name{
+    border-radius: 8px;
+    height: 2.2em;
+}
+#email{
+    border-radius: 8px;
+    height: 2.2em;
+}
+#button{
+    margin-left: 3em;
+    border-radius: 3em;
+    height: 2.2em;
+}
+#foot{
+    padding-top: 2em;
+    text-align: center;
+    height:12em;
+
+}
+#foottop{
+    padding-bottom: 1.5em;
+}
+
+/*
+body{
+    margin-left: 0;
+}
+a{
+    text-decoration: none;
+}
+.up{
+    color: white;
+}
+.class{
+    text-align: center;
+}
+#top{
+    display: flex;
+    
+}
+.pink {
+    margin-top: 0;
+    font: 1em sans-serif;
+    background-color: salmon;
+    color: white;
+}
+.cream{
+    background-color: lightcoral;
+    width: 100%;
+}
+#next{
+    font: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 0.5em;    
+}
+.pi{
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    line-height: 0.2em;
+}
+.box{
+    
+    margin-left: 18em;
+    height: 510px;
+    border-color: black;
+}
+.hit{
+    line-height: 1.2em;
+    border-width: 3;
+    border-color: black;
+    height: 170px;
+}
+.ali{
+    margin-top: 0.5em;
+    margin-left: 5em;
+}
+#chi{
+    padding-top: 5.5px;
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    background-color: gray;
+}
+#lab{
+    padding-top: 5.5px;
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    background-color: gray;
+}
+#mas{
+    padding-top: 5.5px;
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    background-color: gray;
+}
+.pstore{
+    background-color: black;
+
+}
+
+#meet{
+    width: 15em;
+    line-height: 1.2em;
+    
+}
+#op{
+    font-size: 2em;
+}
+#little{
+    color: white;
+    font-size: medium;
+    margin: auto;
+    
+}
+#tindog{
+    
+    margin-left: 7em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+#comp{
+    
+}
+
+#pleft{
+    text-align: left;
+}
+#pright{
+    
+}
+
+#foot{
+    text-align: center;
+}
+
+#space{
+    
+    line-height: 2em;
+}
+*/ 
